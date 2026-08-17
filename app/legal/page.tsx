@@ -1,0 +1,5 @@
+import Link from "next/link";
+
+export default function LegalPage() {
+  return <main className="legal-page"><Link className="wordmark" href="/">EDT<span>.</span></Link><h1>Mentions légales</h1><section><h2>Éditeur</h2><p>EveryDayTool est édité par Theo Phan, particulier. Contact : <a href="mailto:theo.phan.quoc.huy@gmail.com">theo.phan.quoc.huy@gmail.com</a>.</p><p>L&apos;adresse postale de l&apos;éditeur sera renseignée avant toute ouverture publique du service.</p></section><section><h2>Hébergement</h2><p>Le service est hébergé sur Cloudflare Workers par Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, États-Unis.</p></section><section><h2>Liens</h2><p><a href="https://github.com/Aer-3888">GitHub</a> · <a href="https://portfolio-theo.pages.dev/">Portfolio</a></p></section><p className="legal-footer"><a href="/privacy">Confidentialité</a> · <a href="/terms">Conditions d&apos;utilisation</a> · <a href="/cookies">Cookies</a> · <a href="/accessibility">Accessibilité</a></p></main>;
+}
